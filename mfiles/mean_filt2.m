@@ -1,4 +1,4 @@
-function chap4_1
+function mean_filt2
 %% Linear Filtering
 % Mean filtering (Averaging filter)
 
