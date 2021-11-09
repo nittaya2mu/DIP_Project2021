@@ -1,4 +1,4 @@
-function chap6_3_smoothing
+function smoothing
 %% This function is for testing on morphological smoothing compare to Mean filtering
 
 close all, clear all;
