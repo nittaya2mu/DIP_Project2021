@@ -1,4 +1,4 @@
-function chap6_1_graymorp
+function graymorp
 %% Description: This function is for showing morphological operation examples
 
 % read image
