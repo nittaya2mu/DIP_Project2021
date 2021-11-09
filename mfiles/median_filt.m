@@ -1,4 +1,4 @@
-function chap4_2
+function median_filt
 % Exercise 6: Median filter
 % Description -- using cross-shaped median filter for image shading
 % correction
