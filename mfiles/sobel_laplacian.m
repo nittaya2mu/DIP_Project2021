@@ -1,4 +1,4 @@
-function Chapter4_2
+function sobel_laplacian
 
 % Assignment 4.2
 % Description: Apply the Sobel and Laplacian filters to your original facial image separately,
