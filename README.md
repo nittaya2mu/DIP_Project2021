@@ -10,3 +10,9 @@ Resource and Dataset
 [dataset](https://github.com/nittaya2mu/DIP_Project2021/tree/main/dataset) is where you can load your dataset
 
 [mfiles](https://github.com/nittaya2mu/DIP_Project2021/tree/main/mfiles) is to collect the MFiles used in this workshop
+
+
+This workshop is for Digital Image Processing subject (01418385 and 01204483) in the first semester, 2021
+Instructor: Dr. Nittaya Muangnak
+Department of Computer and Information Science
+Faculty of Science and Engineering, Kasetsart University, Sakon Nakhon, Thailand
