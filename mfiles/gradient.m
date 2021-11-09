@@ -1,4 +1,4 @@
-function chap6_4_gradient
+function gradient
     %% This function is for applying morphological gradient
     
     close all, clear all;
