@@ -1,4 +1,4 @@
-function chap4_5
+function laplacian_op
 % Apply Laplacian (2nd derivatives)
 
 % 1. obtain input image
