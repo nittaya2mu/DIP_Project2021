@@ -1,4 +1,4 @@
-function chap6_2_boundary
+function boundary
 %% This function is for applying the image erosion for boundary extraction
 % Boundary = original image - its erosion
 
