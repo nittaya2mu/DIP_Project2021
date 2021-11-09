@@ -1,4 +1,4 @@
-function chap4_4
+function sobel_op
 % Apply Sobel operator
 
 % 1. obtain input image
