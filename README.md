@@ -13,6 +13,9 @@ Resource and Dataset
 
 
 This workshop is for Digital Image Processing subject (01418385 and 01204483) in the first semester, 2021
+
 Instructor: Dr. Nittaya Muangnak
+
 Department of Computer and Information Science
+
 Faculty of Science and Engineering, Kasetsart University, Sakon Nakhon, Thailand
