@@ -1,19 +1,20 @@
 % Single Thresholding -> 1 threshold value
 % if gray level of input > T then output becomes white (1)
 %    gray level of input <= T then output becomes black (0)
+close all, clear all;
 
-img = imread('rice.tif');   % read input image
-img = mat2gray(img);
+img = imread('./image_dataset/Anthracnose/2.jpg');   % read input image
+img = mat2gray(rgb2gray(img));
 T = 0.5;
 T2 = graythresh(img);
 
 [rows, cols] = size(img);
 output = zeros(rows, cols);
 
-pos = img > T;
+pos = (img) > T;
 output(pos) = 1;
 
-pos2 = img > T2;
+pos2 = (img) > T2;
 
 figure, 
 subplot(1,2,1), imshow(pos, []), title('manual define T');
