@@ -11,9 +11,9 @@ Resource and Dataset
 
 [mfiles](https://github.com/nittaya2mu/DIP_Project2021/tree/main/mfiles) is to collect the MFiles used in this workshop
 
-[Notebook - Food Classifier] (https://colab.research.google.com/github/theimgclist/examples/blob/MultiClassTF2.0/community/en/multi_class_classification/food_classifier.ipynb#scrollTo=9M2OZ8O_RVhu)
+[Notebook - Food Classifier](https://colab.research.google.com/github/theimgclist/examples/blob/MultiClassTF2.0/community/en/multi_class_classification/food_classifier.ipynb#scrollTo=9M2OZ8O_RVhu)
 
-[Notebook - Fruit Classification] (https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb#scrollTo=57CcilYSG0zv)
+[Notebook - Fruit Classification](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb#scrollTo=57CcilYSG0zv)
 
 This project is under the DIP Workshop for Digital Image Processing subject (01418385 and 01204483) in the first semester, 2021 <br />
 Instructor: Dr. Nittaya Muangnak <br />
