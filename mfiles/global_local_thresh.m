@@ -1,4 +1,4 @@
-function thresh4
+function global_local_thresh
     %=======Global Thresholding==========
     img = imread('tshape.png');
     img = mat2gray(img);
