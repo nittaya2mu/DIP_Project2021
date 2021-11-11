@@ -1,4 +1,4 @@
-function acc=eval(gt, pred)
+function acc=eval_veg(gt, pred)
     % Evaluating Segmentation Results
     gold_im = gt;
     seg_im = pred;
