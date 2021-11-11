@@ -5,7 +5,8 @@ function main
     % DIP workshop mfile
     close all, clear all;
     %% Load Image
-    oimg = imread("Image_44.png");
+    oimg = imread("Strawberry.jpg");
+    %img = mat2gray(oimg);
     img = rgb2gray(oimg);
     figure, 
     subplot(1,2,1), imshow(oimg, []);
@@ -111,9 +112,21 @@ function main
     % Alternative feature extraction - regionprops
     CC = bwconncomp(segmented_wb);
     S = regionprops(CC, 'Perimeter','Area','Centroid','BoundingBox','PixelList','Eccentricity');
-    idx = find([S.Area] > 6000 & [S.Eccentricity] > 0.8); 
+    idx = find([S.Area] > 80000 & [S.Eccentricity] > 0.6); 
     
     BW2 = ismember(labelmatrix(CC),idx);   % segmented result
+    figure, imshow(BW2,[]);
+
+    % Start tracing of the boundary from the initial point.
+    contour = bwtraceboundary(BW2,[r(1) c(1)],'S');
+    
+    % Count the number of pixels on the boundary
+    len = length(contour)
+    
+    % Plot object contour
+    hold on;
+    plot(contour(:,2),contour(:,1),'.r','LineWidth',3);
+
     imwrite(BW2,'segmented_im1.bmp');
 
     perim = S(idx).Perimeter
@@ -128,5 +141,5 @@ function main
     plot(centroid(1),centroid(2),'.g','LineWidth',3);
     
     %% Evaluating Segment Results
-    acc = eval(BW2, BW2)
+    acc = eval(BW2, BW2)        % GT , Segmented
 end
